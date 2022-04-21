@@ -3,10 +3,8 @@ module.exports = {
   verbose: true,
   testMatch: ['**/tests/**/*.test.js'],
   transform: {
-    //"^.+\\.(ts|tsx)$": "ts-jest",
     '^.+\\.vue$': '@vue/vue3-jest',
     '^.+\\.js$': 'babel-jest',
-    '\\.ya?ml$': 'yaml-jest',
   },
   moduleNameMapper: {
     '^@/(.*)': '<rootDir>/src/$1',

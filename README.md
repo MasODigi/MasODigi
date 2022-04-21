@@ -35,9 +35,6 @@
     - Global Protectを有効にするか、Azure Function APPのNetwork制限に自身のIPを登録すること
     - FunctionsをCallする時に必要な API Key `code` は別途教えてもらうこと
     - APIキーをRepositoryにPushしないこと（例: 環境変数や .envを利用すること）
-- ソースコードはGithubにPushすること
-    - Repositoryの設定は決してPublicにはしないこと
-    - 鈴木、近藤、北野、松波 が参照できること
 - チーム開発を意識してコードを記述すること
     - Gitのコミットメッセージやコミット粒度など
     - 適切なコメント
@@ -49,8 +46,7 @@
 - 通信など必要なライブラリは定義packageに加えること
 - 課題に取りかかる前に、どのくらいかかりそうかの見積もりを提示すること
 - 実務を想定して随時コミュニケーションを図ること
-- Vue CLI 5系を用いたテンプレートを以下のレポジトリに用意してあるため、これを利用すること
-    - mainブランチに直接pushはせずに、自分用のブランチを作成すること
+- mainブランチに直接pushはせずに、自分用のブランチを作成すること
 - LinterにはESLint、FormatterにはPrettierを使用するように設定してある。VS Codeの拡張機能を連携すること
 
 # project operations

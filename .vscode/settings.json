@@ -1,0 +1,72 @@
+{
+    "prettier.configPath": ".prettierrc.js",
+    "prettier.printWidth": 200,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.pug": "prettier",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.postcss": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.less": "prettier",
+    "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.ts": "prettier",
+    "vetur.format.defaultFormatter.sass": "sass-formatter",
+
+    "vetur.format.options.tabSize": 2,
+    "vetur.format.options.useTabs": false,
+
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "singleQuote": true
+        }
+    },
+    "vetur.validation.template": false,
+    "eslint.enable": true,
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.format.enable": false,
+    "eslint.rules.customizations": [
+    ],
+    "stylelint.validate": [
+        "css",
+        "postcss",
+        "scss",
+        "vue"
+    ],
+    "stylelint.snippet": [
+        "css",
+        "less",
+        "postcss",
+        "scss"
+    ],
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[vue]": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
+    "[vue-html]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "[scss]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "typescript.disableAutomaticTypeAcquisition": true
+} 

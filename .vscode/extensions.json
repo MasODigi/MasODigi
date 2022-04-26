@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "ecmel.vscode-html-css",
+        "orta.vscode-jest",
+        "esbenp.prettier-vscode",
+        "octref.vetur",
+        "sdras.vue-vscode-snippets",
+        "redhat.vscode-yaml",
+        "tobermory.es6-string-html",
+        "stylelint.vscode-stylelint"
+    ]
+}
